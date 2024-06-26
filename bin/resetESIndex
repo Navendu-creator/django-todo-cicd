@@ -1,0 +1,5 @@
+#!/bin/bash
+curl -XDELETE 'http://ec2-54-90-162-195.compute-1.amazonaws.com:9200/api_families/'
+echo
+curl -XPUT 'http://ec2-54-90-162-195.compute-1.amazonaws.com:9200/api_families/'
+echo
